@@ -1,5 +1,5 @@
-source 'https://rubygems.org'
+sorce 'https://rubygems.org'
 
 gem 'sinatra'
 gem 'sinatra-activerecord'
-gem 'mongo_mapper'
+gem 'pg'

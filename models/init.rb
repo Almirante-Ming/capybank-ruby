@@ -1,8 +1,12 @@
-require 'mongo'
-require 'mongo_mapper'
+require 'data_mapper'
 
-configure do
-  MongoMapper.database = 'tarefas'
-end
+  DataMapper.setup(:default, {
+    :adapter => 'postgres',
+    :database => 'reparos',
+    :host => 'localhost',
+    :port => 5432,
+    :password => 'masterkey',
+    :user => 'postgres'
+  })
 
 require_relative 'tarefas'

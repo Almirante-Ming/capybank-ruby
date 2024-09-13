@@ -15,3 +15,19 @@ o objetivo e operar como uma API que envia e recebe dados por uma requisicao htt
 ------------------------------------------------------------------------------------------------------------------------
 em breve o projeto pode e certamentes sofrera mudanças, por agora o objetivo primario se trata um projeto para avaliação
 dos docentes, e em breve um treino de adaptação e aprendizado de outras linguagens bem como melhores praticas de codigo.
+
+
+CRUD
+-------------------------------------------------------------
+create:
+user = User.create(name: "John Doe", email: "john@example.com")
+
+Read:
+user = User.get(1) # Busca pelo ID
+
+Update:
+user.update(email: "new_email@example.com")
+
+Delete:
+user.destroy
+

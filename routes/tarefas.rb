@@ -9,3 +9,7 @@ end
 get '/tarefas/nova' do
   erb :nova
 end
+
+get '/tarefas/:historico' do
+  erb :historico
+end

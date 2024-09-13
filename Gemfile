@@ -1,5 +1,10 @@
-sorce 'https://rubygems.org'
+source 'https://rubygems.org'
 
 gem 'sinatra'
+gem 'activerecord'
 gem 'sinatra-activerecord'
+gem 'data_mapper'
 gem 'pg'
+gem 'do_postgres'
+gem 'dm-postgres-adapter'
+gem 'rake'

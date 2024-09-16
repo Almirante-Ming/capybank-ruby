@@ -8,7 +8,7 @@ stack atual (para avaliação das dissiplinas):
 ------------------------------------------------------------------------------------------------------------------------
 stack original do projeto :
 - ruby (com rbenv)
-- mongoDB (banco de dados padrao)
+- postgresql (banco de dados padrao)
 - Sinatra (framework)
 
 o objetivo e operar como uma API que envia e recebe dados por uma requisicao http, posteriormente um novo js que faz a logica das paginas sera feito, para operar de maneira mais eficiente, em conjunto da API, rodando via docker.

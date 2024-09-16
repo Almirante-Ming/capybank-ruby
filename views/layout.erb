@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Site com Sinatra</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Cabeçalho do Meu Site</h1>
+      <nav>
+        <ul>
+          <li><a href="/">Início</a></li>
+          <!-- Mais links aqui -->
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <%= yield %> <!-- Esse é o conteúdo dinâmico das páginas -->
+    </main>
+
+    <footer>
